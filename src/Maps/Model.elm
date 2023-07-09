@@ -1,4 +1,4 @@
-module App.Model exposing (..)
+module Maps.Model exposing (..)
 
 import Browser.QueryRouter
 import Dict

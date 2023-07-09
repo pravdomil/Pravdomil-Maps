@@ -1,7 +1,7 @@
 module Main exposing (..)
 
-import App.Main
+import Maps.Main
 
 
 main =
-    App.Main.main
+    Maps.Main.main

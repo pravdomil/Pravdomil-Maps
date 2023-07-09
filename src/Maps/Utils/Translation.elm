@@ -1,4 +1,4 @@
-module App.Utils.Translation exposing (..)
+module Maps.Utils.Translation exposing (..)
 
 
 title : String

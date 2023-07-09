@@ -1,4 +1,4 @@
-module App.Msg exposing (..)
+module Maps.Msg exposing (..)
 
 import Browser
 import Url
