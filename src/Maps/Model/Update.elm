@@ -27,13 +27,13 @@ update msg =
             Platform.Extra.noOperation
 
         Maps.Msg.UrlRequested a ->
-            \model ->
+            \x ->
                 case a of
                     Browser.Internal b ->
-                        ( model, Browser.Navigation.load (Url.toString b) )
+                        ( x, Browser.Navigation.load (Url.toString b) )
 
                     Browser.External b ->
-                        ( model, Browser.Navigation.load b )
+                        ( x, Browser.Navigation.load b )
 
         Maps.Msg.UrlChanged _ ->
             Platform.Extra.noOperation
